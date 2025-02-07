@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ticket Management App
 
-## Getting Started
+A simple ticket management application where users can create tickets for software, hardware, and project issues or jobs. Tickets can be assigned priorities, edited, and managed efficiently. The project is not fully flushed out yet, but the core functionality is in place.
 
-First, run the development server:
+## Features
+- Create tickets for software, hardware, and project-related issues
+- Assign priority levels to tickets
+- Edit and update tickets
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Setup
+1. Clone the repository:
+   ```sh
+   git clone <repo-url>
+   cd <project-directory>
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Set up MongoDB Atlas:
+   - Create a MongoDB Atlas account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+   - Set up a cluster and database.
+   - Obtain the connection URI and add it to your project's environment variables.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Run the development server:
+   ```sh
+   npm run dev
+   ```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## To Do
+- Improve UI/UX
+- Add user authentication and role-based access control
+- Implement email notifications for ticket updates
+- Enhance error handling
